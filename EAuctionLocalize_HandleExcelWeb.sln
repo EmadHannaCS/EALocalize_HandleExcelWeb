@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAuctionLocalize_HandleExcelWeb", "EAuctionLocalize_HandleExcelWeb\EAuctionLocalize_HandleExcelWeb.csproj", "{3CD7428E-4897-4F34-8DA1-ADFB344A3C14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD7428E-4897-4F34-8DA1-ADFB344A3C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD7428E-4897-4F34-8DA1-ADFB344A3C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD7428E-4897-4F34-8DA1-ADFB344A3C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD7428E-4897-4F34-8DA1-ADFB344A3C14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BF30E74-9F60-477B-9551-12CAA6F47CD0}
+	EndGlobalSection
+EndGlobal

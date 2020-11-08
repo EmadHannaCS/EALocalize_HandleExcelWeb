@@ -1,0 +1,22 @@
+﻿<br />
+@using (Html.BeginForm("UploadExcel", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="col">
+        <div class="custom-file">
+            <input required type="file" class="custom-file-input" id="customFile" name="excelfile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+            <hr />
+            <input type="submit" value="Upload" class="btn btn-primary col-md-offset-4 fa fa-upload" />
+        </div>
+    </div>
+
+}
+@section Scripts {
+    <script>
+        // Add the following code if you want the name of the file appear on select
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split("\\").pop();
+            $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+        });
+    </script>
+}
